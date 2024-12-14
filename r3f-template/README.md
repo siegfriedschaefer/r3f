@@ -64,6 +64,9 @@ npm install @react-three/drei
 
 We want to build a minimalistic Nexus Lumina template.
 
+The template should show a stage with a cube.
 We start with adding the favicon of Nexus Lumina at index.html.
+
+We define a component called Stage which is the base for our 3D - experience.
 
 Than we have to adopt the App.tsx file accordingly.
