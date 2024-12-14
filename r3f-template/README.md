@@ -43,3 +43,27 @@ VITE v6.0.3 ready in 224 ms
 ```
 
 You could exit the test run by pressing 'q' + 'Enter'
+
+If you enter the localhost url into your browser, you will see the default React + Vite Webapp.
+
+### Adding Three.js + React Fiber
+
+We add the three.js and react fiber packages with the following command.
+
+```bash
+npm install three @types/three @react-three/fiber
+```
+
+Than we need the react-three/drei module.
+
+```bash
+npm install @react-three/drei
+```
+
+# Adopting the template's source code
+
+We want to build a minimalistic Nexus Lumina template.
+
+We start with adding the favicon of Nexus Lumina at index.html.
+
+Than we have to adopt the App.tsx file accordingly.
