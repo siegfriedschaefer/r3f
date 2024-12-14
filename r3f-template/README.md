@@ -12,3 +12,12 @@ nvm install --lts
 ```
 
 ## Setup React + TypeScript + Vite
+
+We setup a new React project with Typescript support using Vite.
+
+```bash
+npm create vite@latest
+```
+
+You will be asked for a project name, than select the React variant with Typescript and SWC support.
+With this selection you get proper javascript type support and a fast development environment.
