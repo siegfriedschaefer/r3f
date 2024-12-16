@@ -9,3 +9,7 @@ We are using [Ready Player Me](https://readyplayer.me) service to create and exp
 After creating your avatar, you can download the specific glb file and store it under the
 
 Than we are using the [gltfjsx](https://github.com/pmndrs/gltfjsx) tool to convert the glb format to a jsx file which we can use with three-fiber.
+
+```bash
+npx gltfjsx assets/models/avatar_001.glb -o src/components/avatars/alex.jsx -r public
+```
